@@ -98,11 +98,12 @@ main{
         padding: 10px;
         width: 400px;
         h3{
-            border-bottom: 2px dotted #0004;
+            border-bottom: none;
             color: black;
-            font-size: 1.6rem;
+            font-size: 1.2rem;
+            font-weight: 500;
             margin: 0;
-            width: fit-content;
+            width: 100%;
         }
         p{
             font-size: 1.4rem;
