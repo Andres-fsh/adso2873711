@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #17A053;
+            text-align: center;
+        }
+        div.sprite {
+            background: url(images/spriteweb.png) no-repeat;
+            background-position: -10px -400px;
+            margin: 0 auto;
+            height: 180px;
+            width: 190px;
+        }
+        a:is(:link, :visited) {
+            background-color: #3333339c;
+            color: #ccc;
+            font-size: 1.2rem;
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+            transition: all 0.4s ease-in;
+            width: 20%;
+        }
+        a:is(:hover) {
+            background-color: #333;
+            color: #ffffff;
+        }
+        div.box{
+            background-color: #000600;
+            display: flex;
+            align-items: center;
+            font-size: 5rem;
+            justify-content: center;
+            padding: 1rem;
+            height: 200px;
+            margin: 20px auto;
+            width: 600px;
+           }
+    </style>
+</head>
+<body>
+    <div class="sprite"></div>
+    <a href="#">INICIO</a>
+    <a href="#">NOTICIAS</a>
+    <a href="#">PORTAFOLIO</a>
+    <a href="#">SERVICIOS</a>
+    <a href="#">CONTACTO</a>
+<main>
+<header>
+    <section>
+        <div class="box">box1</div>
+    </section>
+</header>
+</main>
+   
+
+</body>
+</html>
