@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="css/master.css">
+    <style>
+        section img.title{
+            width: 180px;
+            height: 80px;
+            align-items: center;
+            margin-left: 100px;
+        }
+            img.title{
+            transition: transform 0.5s ease-in;
+             }
+            img.title:hover{
+            transform: scale(1.4);
+            }
+                        
+            
+         
+        section img.planet{
+            height: 350px;
+            width: 400px; 
+             position: relative;
+            top: -200;
+            left: 0;
+            
+        }
+        section img.skull {
+        height: -100px;
+        width: 60px;
+        position: relative;
+        top: -200px;
+        left: 100px;
+        animation: 3s animSkull linear infinite;
+       }
+       @keyframes animSkull{
+            from{left: 0px; transform: rotate(180deg)}
+            50% {left: 200px; transform: rotate(0deg)}
+            70% {left: 200px; transform: rotate(15deg)}
+            80% {left: 200px; transform: rotate(10deg)}
+            to {left: 0px; transform: rotate(0deg)}
+       }
+       
+    
+    </style>
+</head>
+<body>
+    <nav Class="controls">
+        <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+        </a>
+    </nav>
+    <main>
+        <header>
+            <H1>Animation</H1>
+           <h2>Lets an element gradually change from one style to another</h2> 
+        </header>
+        <section>
+          <h3>Example:</h3>
+          <img class="title" src="images/DRAGON-BALL-Y-SU-FUMA-VOLADORA-6-5-2024-removebg-preview.png" alt="">
+          <img class="planet" src="images/namek planet.jpg" >
+          <img class="skull" src="images/goku2.png" >
+        </section>
+    </main>
+    
+</body>
+</html>
