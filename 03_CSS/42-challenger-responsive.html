@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge responsive</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+        {
+            transition: all 0.2s ease-in;
+        }
+        body {
+            background-color: rgba(0, 0, 0, 0.534);
+            color: #fffc;
+            font-family: poppins, sans-serif;
+            font-weight: 400;
+        }
+        main{
+            padding: 2rem;
+        }
+        main figure.logo{
+            background: url(images/hxh.jpeg);
+            margin: 0 auto;
+            width: 819px;
+            height: 354px;
+        }
+        main p{
+            line-height: 2rem;
+            text-align: justify;
+        }
+        main h1{
+            font-size: 4rem;
+            text-align: center;
+        }
+        main h1 span.small,
+        main h1 span.medium{
+            display: none;
+        }
+        /*------------------------------------*/
+        /*MEDIA QUERIES*/
+        /*------------------------------------*/
+        @media (max-width: 1024px){
+            main header figure.logo{
+                background: url(images/hxh2.jpg) no-repeat center;
+                width: 348px;
+                height: 370px;
+            }
+            main h1 span.small,
+            main h1 span.large {
+                display: none;
+            }
+            main h1 span.medium {
+                display: inline;
+            }
+            main h1 {
+                font-size: 2rem;
+            }
+
+        }
+        @media (max-width: 780px){
+            main header figure.logo{
+                background: url(images/gonxhxh.jpg) no-repeat center;
+                width: 162px;
+                height: 156px;
+            }
+            main h1 span.medium,
+            main h1 span.large {
+                display: none;
+            }
+            main h1 span.small {
+                display: inline;
+            }
+            main h1 {
+                font-size: 2rem;
+            }
+        }
+        div.box {
+            display: flex;
+            gap: 2rem;
+            margin: -3rem auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 1.5rem;
+            width: calc(300px*3);
+            height: 220px;
+        }
+        div.box div.img1 {
+            background: url(images/new_tork_hxh.jpeg) no-repeat;
+            font-weight: bold;
+            width: 200px;
+            height: 230px;
+        }
+        div.box div.img2 {
+            background: url(images/hxh_torre_cielo.jpeg) no-repeat;
+            font-weight: bold;
+            width: 200px;
+            height: 200px;
+        }
+        div.box div.img3 {
+            background: url(images/hxh_greed_island.jpeg) no-repeat;
+            font-weight: bold;
+            width: 200px;
+            height: 200px;
+        }
+        div.box div.img4 {
+            background: url(images/hxh_arc_quimera.jpeg) no-repeat;
+            font-weight: bold;
+            width: 200px;
+            height: 200px;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <main>
+        <section id="section1">
+           
+        </section>
+        <header>
+            <figure class="logo"></figure>
+        </header>
+        <section>
+            <div class="box">
+                <div class="img1"></div>
+                <div class="img2"></div>
+                <div class="img3"></div>
+                <div class="img4"></div>
+            </div>
+            <h1>
+                HUNTER X HUNTER
+                <span class="large"></span>
+                <span class="medium"></span>
+                <span class="small"></span>
+            </h1>
+            <p>
+                Hunter X Hunter es un anime de televisión que se emitió desde 2011 hasta 2014, basado en el manga homónimo de Yoshihiro Togashi. La historia comienza con un joven llamado Gon Freecss, quien un día descubre que el padre que creía muerto está de hecho vivo y sano. Se entera de que su padre, Ging, es un legendario «Cazador», un individuo que ha demostrado ser un miembro de élite de la humanidad. A pesar de que Ging dejó a su hijo con sus parientes para perseguir sus propios sueños, Gon está decidido a seguir los pasos de su padre, superar el riguroso «Examen de cazador» y, finalmente, encontrar a su padre para convertirse en cazador por derecho propio.
+            </p>
+        </section>
+    </main>
+    
+</body>
+</html>
