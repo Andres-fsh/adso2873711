@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        *{
+            transition: all 2s ease-in;
+        }
+        body{
+            background: url(Images/hxh2.jpg)center;
+            background-size: contain;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        figure.hunter{
+            background: url(Images/hxh2\ \(2\).jpg) no-repeat;
+            margin: 0 auto;
+            height: 307px;
+            width: 1024px;
+            display: flex;
+           
+        }
+        @media (max-width: 1024px){
+            main header figure.hunter{
+                background: url(Images/gonxhxh.jpg) no-repeat center;
+                width: 424px;
+                height: 480px;
+            }
+            figure.hunter{
+                display: url(Images/logoAsassins.png) none;
+            }
+        }
+        @media (max-width: 780px){
+            main header figure.hunter{
+                background: url(Images/logo3-removebg-preview.png) no-repeat center;
+                width: 500px;
+                height: 450px;
+            }
+            figure.hunter{
+                display: url(Images/logoAsassins.png) none;
+                display: url(Images/logo2-removebg-preview.png) none;
+            }
+        }
+        div.contenedor{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        div.seson1{
+            background: url(Images/hunter-x-hunter-2011.jpg) no-repeat;
+            display: flex;
+            background-size: cover;
+            width: 300px;
+            height: 250px;
+            margin-top: 20px;
+            border: 2px solid black;
+            align-items: flex-end;
+        }
+        p.img1{
+            cursor: pointer;
+            color: white;
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            height: 40px;
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+            border-top: 4px solid white; ;
+        }
+        p.img1:hover{
+            border-top: none;
+            height: 90px;
+            background: url(Images/new_tork_hxh.jpeg) no-repeat;
+            background-size: cover;
+        }
+        div.seson2{
+            background: url(Images/hxh_torre_cielo.jpeg) no-repeat center;
+            background-size: cover;
+            display: flex;
+            width: 300px;
+            height: 250px;
+            margin-top: 20px;
+            border: 2px solid black;
+            align-items: flex-end;
+        }
+        p.img2{
+            cursor: pointer;
+            color: white;
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            height: 40px;
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+            border-top: 4px solid white; ;
+        }
+        p.img2:hover{
+            border-top: none;
+            background: url(Images/desmond1.jpg) no-repeat center;
+            background-size: cover;
+            height: 90px;
+        }
+        div.seson3{
+            background: url(Images/hxh_greed_island.jpeg) no-repeat ;
+            background-size: cover;
+            display: flex;
+            width: 300px;
+            height: 250px;
+            margin-top: 20px;
+            border: 2px solid black;
+            align-items: flex-end;
+        }
+        p.img3{
+            cursor: pointer;
+            color: white;
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            height: 40px;
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+            border-top: 4px solid white; ;
+        }
+        p.img3:hover{
+            border-top: none;
+            height: 90px;
+            background: url(Images/Conoe.jpg) no-repeat center;
+            background-size: cover;
+        }
+        div.seson4{
+            background: url(Images/hxh_arc_quimera.jpeg) no-repeat center ;
+            background-size: cover;
+            display: flex;
+            width: 300px;
+            height: 250px;
+            margin-top: 20px;
+            border: 2px solid black;
+            align-items: flex-end;
+        }
+        p.img4{
+            cursor: pointer;
+            color: white;
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            height: 40px;
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+            border-top: 4px solid white; ;
+        }
+        p.img4:hover{
+            border-top: none;
+            height: 90px;
+            background: url(Images/Edawrd1.jpg) no-repeat;
+            background-size:   cover;
+        }
+        @media (max-width: 1024px){
+            div.contenedor{
+                flex-direction:column;
+                width: 800px;
+                height: 550px;
+                padding: 50px;
+                gap: 10px;
+                justify-content: center;
+                margin: 0 auto;
+                margin-top: -30px;
+            }
+            div.seson1{
+                width: 300px;
+                height: 250px;
+                margin: 0 auto;
+                margin-right: 70px;
+            }
+            div.seson2{
+                width: 300px;
+                height: 250px;
+                margin-inline: 0 auto;
+                margin-top: -265px;
+            }
+            div.seson3{
+                width: 300px;
+                height: 250px;
+                margin-inline: 0 auto;
+              
+            }
+            div.seson4{
+                width: 300px;
+                height: 250px;
+                margin: 0 auto;
+                margin-right: 70px;
+                margin-top: -265px;
+            }
+        }
+        @media (max-width: 780px){
+            div.contenedor{
+                flex-direction:column;
+                width: 600px;
+                height: 900px;
+                margin: -120px auto;
+                padding: 100px;
+                gap: 10px;
+                justify-content: center;
+            }
+            
+        div.seson1{
+                width: 300px;
+                height: 250px;
+                margin: 0 auto;
+              
+            }
+      
+            div.seson2{
+                width: 300px;
+                height: 250px;
+                margin-inline: 0 auto;
+                margin: 0 auto;
+               
+            }
+       
+            div.seson3{
+                width: 300px;
+                height: 250px;
+                margin: 0 auto;  
+            }
+            div.seson4{
+                width: 300px;
+                height: 250px;
+                margin: 0 auto;
+            }
+
+        }
+        div.contenedor2{
+            display: flex;
+            height: 700px;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        div.imagen1{
+            background: url(Images/Ezio2.jpg) no-repeat;
+            background-size: cover;
+            justify-content: center;
+            width: 200px;
+            height: 250px;
+           
+        }
+        div.descripcion1{
+            align-items: line;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            align-items: center;
+            width: 100%;
+            height: 250px;
+            background-color: rgba(0, 0, 0, 0.47);
+
+        }
+        div.descripcion1 h2{
+            font-size: 2rem;
+            color: black;
+            text-align: center;
+            margin: 0 auto;
+        }
+        div.descripcion1 p{
+            cursor: pointer;
+            color: rgb(255, 234, 252);
+            font-size: 1rem;
+            justify-content: center;
+            height: 200px;
+            width: 100%;
+        }
+        @media (max-width: 10240px){
+            div.contenedor2{
+                
+                p{
+                    font-size: 0.9rem;
+                }
+            }
+        }
+        @media (max-width: 780px){
+            div.contenedor2{
+                display: block;
+                margin: 20px auto;
+                width: 450px;
+                margin-top: 20px;
+                height: 410px;
+                
+            }
+            div.imagen1{
+                width: 450px;
+                height: 200px;
+                background-position: center top;
+                background-repeat: no-repeat;
+                margin-top: 50px;
+            }
+            div.descripcion1{
+                width: 100%;
+                height: 250px;
+                
+            }
+            div.descripcion1 h2{
+                margin: 0 auto;
+                font-size: 1.7 rem;
+                color: rgb(254, 14, 90);
+                margin-top: 20px;
+                margin-left: 26px;
+            }
+            div.descripcion1 p{
+                overflow: auto;
+               margin-left: 35px;
+               margin-top: 10px;
+            }
+        }
+        </style>
+</head>
+<body>
+    <main>
+        <header>
+            <figure class="hunter"></figure>
+        </header>
+        <br>
+        <div class="contenedor">
+            <div class="seson1">
+                <p class="img1">SESON 1</p>
+            </div>
+            <div class="seson2">
+                <p class="img2">TORRE DEL CIELO</p>
+            </div>
+            <div class="seson3">
+                <p class="img3">GREED ISLAND</p>
+            </div>
+            <div class="seson4">
+                <p class="img4">QUIMERA´S ANTS</p>
+        </div>
+        </div>
+        <br>
+        <div class="contenedor2">
+            <div class="imagen1"></div>
+            <div class="descripcion1">
+            <h2>HUNTER X HUNTER</h2>
+                <p >
+                    Hunter X Hunter es un anime de televisión que se emitió desde 2011 hasta 2014, basado en el manga homónimo de Yoshihiro Togashi. La historia comienza con un joven llamado Gon Freecss, quien un día descubre que el padre que creía muerto está de hecho vivo y sano. Se entera de que su padre, Ging, es un legendario «Cazador», un individuo que ha demostrado ser un miembro de élite de la humanidad. A pesar de que Ging dejó a su hijo con sus parientes para perseguir sus propios sueños, Gon está decidido a seguir los pasos de su padre, superar el riguroso «Examen de cazador» y, finalmente, encontrar a su padre para convertirse en cazador por derecho propio.
+                </p>
+            </div>
+                
+        </div>
+        </main>
+
+</body>
+</html>
