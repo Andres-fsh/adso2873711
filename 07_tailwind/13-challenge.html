@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#d2b48c] flex flex-col items-center justify-center min-h-screen">
+
+    <!-- Primera página -->
+    <div id="macromicetos" class="w-full max-w-md bg-white shadow-lg rounded-lg p-6 mb-6 min-h-screen flex flex-col justify-between">
+        <div class="h-1/2 bg-gray-200 rounded-lg flex items-center justify-center">
+            <!-- Aquí se cargará la imagen de los macromicetos -->
+            <img src="../07_tailwind/no fondo/Leratiomices-ceres-y-otros-Macromicetos-del-Humedal-La-Conejera.png" alt="">
+            
+        </div>
+        <div class="text-center mt-4">
+            <h2 class="text-3xl font-semibold">MACROMICETOS</h2>
+            <p class="text-lg text-purple-700 mt-2">Vamos a adentrarnos al maravilloso mundo de las setas</p>
+            <a href="#gourmet" class="mt-4 inline-block bg-green-300 hover:bg-green-400 text-green-900 font-bold py-2 px-4 rounded-full">GO AHEAD!!!</a>
+        </div>
+    </div>
+
+    <!-- Segunda página -->
+    <div id="gourmet" class="w-full max-w-md bg-white shadow-lg rounded-lg p-6 mb-6 min-h-screen flex flex-col justify-between">
+        <div class="flex justify-start">
+            <a href="#macromicetos" class="text-green-700 hover:text-green-900">← GOURMET Y MEDICINALES</a>
+        </div>
+        <p class="text-gray-700 mt-4">Son aquellos que ofrecen un aporte nutricional valioso, además apetecidos por sus bajos niveles de grasa y calorías. Aportan antioxidantes, proteína, aumenta las defensas.</p>
+        <div class="h-1/2 bg-gray-200 rounded-lg mt-4 flex items-center justify-center">
+ 
+        </div>
+        <div class="mt-4">
+          <div class="flex gap-7">
+            <div>
+              <button class="w-60 text-left bg-green-300 hover:bg-green-400 text-green-900 font-bold py-2 px-4 rounded-lg mt-2">SHIITAKE</button>
+            </div>
+            <div>
+              <img src="../07_tailwind/no fondo/shitake-removebg-preview.png" class="w-20">
+            </div>
+          </div>
+          <div class="flex gap-7">
+            <div>
+            <button class="w-60 text-left bg-green-300 hover:bg-green-400 text-green-900 font-bold py-2 px-4 rounded-lg mt-2">REISHI</button>
+            </div>  
+            <div>
+              <img src="../07_tailwind/no fondo/reishi-removebg-preview.png" class="w-20">
+            </div>
+          </div>
+          <div class="flex gap-7">
+            <div>
+              <button class="w-60 text-left bg-green-300 hover:bg-green-400 text-green-900 font-bold py-2 px-4 rounded-lg mt-2">MAITAKE</button>
+            </div>
+            <div>
+              <img src="../07_tailwind/no fondo/kaitake-removebg-preview.png" class="w-20">
+            </div>
+          </div>
+          <div class="flex gap-7">
+            <div>
+              <button class="w-60 text-left bg-green-300 hover:bg-green-400 text-green-900 font-bold py-2 px-4 rounded-lg mt-2">MELENA DE LEÓN</button>
+            </div>
+            <div>
+              <img src="../07_tailwind/no fondo/descarga-removebg-preview.png" class="w-20">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Tercera página -->
+    <div id="alucinogenos" class="w-full max-w-md bg-white shadow-lg rounded-lg p-6 min-h-screen flex flex-col justify-between">
+        <div class="flex justify-start">
+            <a href="#macromicetos" class="text-green-700 hover:text-green-900">← ALUCINÓGENOS</a>
+        </div>
+        <p class="text-gray-700 mt-4">Los hongos mágicos, contienen psilocibina, un compuesto químico que, al ser digerido y transformado en psilocina, produce experiencias psicodélicas y un estado alterado de conciencia.</p>
+        <div class="h-1/2 bg-gray-200 rounded-lg mt-4 flex items-center justify-center">
+            <!-- Aquí se cargará la imagen de los hongos alucinógenos -->
+            <img src="../07_tailwind/no fondo/cubensis-removebg-preview.png" alt="">
+        </div>
+        <button class="w-full text-left bg-green-300 hover:bg-green-400 text-green-900 font-bold py-2 px-4 rounded-lg mt-4">PSILOCYBE CUBENSIS</button>
+    </div>
+
+</body>
+</html>
